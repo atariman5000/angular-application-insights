@@ -4,9 +4,9 @@
 
 > Application Insights is an extensible Application Performance Management (APM) service for web developers on multiple platforms. Use it to monitor your live web application. It will automatically detect performance anomalies. It includes powerful analytics tools to help you diagnose issues and to understand what users actually do with your app.
 
-[![npm](https://img.shields.io/npm/v/@markpieszak/ng-application-insights.svg?label=npm%20version&color=5b1096&style=for-the-badge)](https://www.npmjs.com/@markpieszak/ng-application-insights)
-[![Minzipped Size](https://img.shields.io/bundlephobia/minzip/@markpieszak/ng-application-insights?color=e51384&style=for-the-badge)](https://bundlephobia.com/result?p=@markpieszak/ng-application-insights)
-[![NPM Downloads](https://img.shields.io/npm/dw/@markpieszak/ng-application-insights.svg?color=b31ae7&style=for-the-badge)](https://www.npmjs.com/@markpieszak/ng-application-insights)
+[![npm](https://img.shields.io/npm/v/@atariman5000/ng-application-insights.svg?label=npm%20version&color=5b1096&style=for-the-badge)](https://www.npmjs.com/@atariman5000/ng-application-insights)
+[![Minzipped Size](https://img.shields.io/bundlephobia/minzip/@atariman5000/ng-application-insights?color=e51384&style=for-the-badge)](https://bundlephobia.com/result?p=@atariman5000/ng-application-insights)
+[![NPM Downloads](https://img.shields.io/npm/dw/@atariman5000/ng-application-insights.svg?color=b31ae7&style=for-the-badge)](https://www.npmjs.com/@atariman5000/ng-application-insights)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE) 
 
 ---
@@ -27,7 +27,7 @@
 Install & save the library to your package.json:
 
 ```bash
-$ npm i -S @markpieszak/ng-application-insights
+$ npm i -S @atariman5000/ng-application-insights
 ```
 
 ---
@@ -38,7 +38,7 @@ Now add ApplicationInsightsModule to your Angular Root `AppModule`:
 
 ```typescript
 // 1) Import the Application Insights module and the service provider
-import { ApplicationInsightsModule, AppInsightsService } from '@markpieszak/ng-application-insights';
+import { ApplicationInsightsModule, AppInsightsService } from '@atariman5000/ng-application-insights';
 
 @NgModule({
   imports: [
@@ -81,7 +81,7 @@ constructor(
 Through out your application you can now use the AppInsightsService class to fire off AppInsights functionality.
 
 ```typescript
-import { AppInsightsService } from '@markpieszak/ng-application-insights';
+import { AppInsightsService } from '@atariman5000/ng-application-insights';
 
 export class ShoppingCartComponent {
   public cart: [];
